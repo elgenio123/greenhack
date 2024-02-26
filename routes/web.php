@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectContoller;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::prefix('guest')->group(function () {
+
+    Route::prefix('myprojects')->name('projects.')->group(function () {
+        Route::get('/', [ProjectContoller::class, 'index'])->name('index');
+        Route::get('/create', [ProjectContoller::class, 'create'])->name('create');
+        Route::get('/edit/{project}', [ProjectContoller::class, 'edit'])->name('edit');
+        Route::post('/store', [ProjectContoller::class, 'store'])->name('store');
+        Route::put('/update/{project}', [ProjectContoller::class, 'update'])->name('update');
+        Route::delete('/delete/{project}', [ProjectContoller::class, 'delete'])->name('delete');
+        Route::get('/{project}/detail', [ProjectContoller::class, 'detail'])->name('detail');
+    });
 });
