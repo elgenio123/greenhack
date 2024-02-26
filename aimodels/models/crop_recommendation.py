@@ -1,7 +1,9 @@
+import joblib
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
+
 
 # Read the dataset
 df = pd.read_csv('../dataset_files/crop-recommendation/Crop_recommendation.csv')
@@ -19,6 +21,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Model selection and training
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
+joblib.dump(model, 'crop_recommendation.pkl')
 
 # Model evaluation
 y_pred = model.predict(X_test)

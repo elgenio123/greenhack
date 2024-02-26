@@ -1,4 +1,5 @@
 
+import joblib
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
@@ -28,6 +29,9 @@ testlabelsdata=testlabels[...,1:]
 
 regression_multirf = MultiOutputRegressor(RandomForestRegressor(max_depth=10,n_estimators=50,n_jobs=-1))
 regression_multirf.fit(trainfeaturesdata,trainlabelsdata)
+
+joblib.dump(regression_multirf, 'get_soil_data.pkl')
+
 predtrainlabelsdata=regression_multirf.predict(trainfeaturesdata)
 predtestlabelsdata=regression_multirf.predict(testfeaturesdata)
 error =mean_squared_error(trainlabelsdata, predtrainlabelsdata, sample_weight=None, multioutput='uniform_average')
