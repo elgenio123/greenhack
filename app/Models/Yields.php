@@ -27,6 +27,6 @@ class Yields extends Model
      */
     public function plot()
     {
-        return $this->belongsTo(Parcel::class, 'id_plot', 'id');
+        return $this->belongsTo(Plot::class, 'id_plot', 'id');
     }
 }
