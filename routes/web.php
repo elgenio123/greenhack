@@ -24,6 +24,12 @@ Route::get('/terms',function(){
 
 })->name('terms');
 
+Route::get('/about',function(){
+
+    return view('layouts.about');
+
+})->name('about');
+
 
 Route::get('/dashboard', function(){
 

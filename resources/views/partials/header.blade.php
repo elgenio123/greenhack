@@ -80,7 +80,7 @@
                       <a href="#services" class="nav-link text-left">Our Services</a>
                     </li>
                      <li>
-                      <a href="about.html" class="nav-link text-left">About Us</a>
+                      <a href="{{ route('about') }}" class="nav-link text-left">About Us</a>
                     </li>
                     <li>
                       <a href="contact.html" class="nav-link text-left">Contact Us</a>
