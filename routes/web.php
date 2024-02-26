@@ -15,9 +15,34 @@ use App\Http\Controllers\ProjectContoller;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('layouts.home');
+})->name('home');
 
+Route::get('/terms',function(){
+
+    return view('layouts.terms');
+
+})->name('terms');
+
+
+Route::get('/dashboard', function(){
+
+    return view('layouts.admin.dashboard');
+
+})->name('dashboard');
+
+Route::get('/project',function(){
+
+return view('layouts.admin.project');
+
+})->name('project');
+Route::get('/project/create-new-project',function(){
+
+return view('layouts.admin.layouts.create-project');
+
+})->name('create.project');
+
+require __DIR__.'/auth.php';
 Route::prefix('guest')->group(function () {
 
     Route::prefix('myprojects')->name('projects.')->group(function () {
