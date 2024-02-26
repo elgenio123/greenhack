@@ -16,6 +16,6 @@ class DatabaseSeeder extends Seeder
          \App\Models\User::factory(10)->create();
          \App\Models\Plot::factory(10)->create();
          \App\Models\WeatherData::factory(10)->create();
-
+     
     }
 }

@@ -32,7 +32,6 @@ class Projects extends Model
      */
     public function plant()
     {
-
         return $this->belongsTo(Plans::class, 'plant_id', 'id');
     }
 }
