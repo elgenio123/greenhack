@@ -5,34 +5,34 @@
 
 <div class="hero-slide owl-carousel site-blocks-cover">
     
-        <div class="intro-section" style="background-image: url('{{ asset("assets/images/hero_4.jpg") }}');">
+        <div class="intro-section" style="background-image: url('{{ asset("assets/images/bg1.jpg") }}')">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-7 justify-content-center mx-auto text-center" data-aos="fade-up">
                 <span class="d-block"></span>
-                <h1>Farming as a Passion</h1>
+                <h1>Cultivate the Future with Our Smart Agriculture Platform</h1>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="intro-section" style="background-image: url('{{ asset("assets/images/hero_5.jpg") }}');">
+        <div class="intro-section" style="background-image: url('{{ asset("assets/images/bg2.jpg") }}');">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-7 justify-content-center mx-auto text-center" data-aos="fade-up">
                 <span class="d-block"></span>
-                <h1>Good Food For All</h1>
+                <h1>“Optimize Your Crop Yields with Our Intelligent Solution”</h1>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="intro-section" style="background-image: url('{{ asset("assets/images/hero_6.jpg") }}');">
+        <div class="intro-section" style="background-image: url('{{ asset("assets/images/bg3.jpg") }}');">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-7 justify-content-center mx-auto text-center" data-aos="fade-up">
                 <span class="d-block"></span>
-                <h1>Plants Make Life Better</h1>
+                <h1>“Data, Forecasts, Recommendations: The Key to Thriving Agriculture”</h1>
               </div>
             </div>
           </div>
@@ -102,37 +102,48 @@
               </div>
               <div class="col-lg-5 ml-auto">
                 <h3 class="section-subtitle text-white opacity-50">Why Choose Us</h3>
-                <h2 class="section-title mb-4">More than <strong>50 year experience</strong> in agriculture industry</h2>
-                <p class="opacity-50">Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima nostrum perspiciatis error consequatur sit nulla.</p>
-
+                <h2 class="section-title mb-4">Our team is made up of more than <strong>100 agronomist experts</strong></h2>
+                <p class="opacity-50">We understand the challenges that farmers face, which is why we’ve created a comprehensive solution to help you maximize your harvests and efficiently manage your farms.</p>
+                
+                <h2 class="section-title mb-4"><strong>Our challenges</strong></h2>
+                
                 <div class="row my-5">
                   <div class="col-lg-12 d-flex align-items-start mb-4">
                     <span class="icon-leaf mr-4 display-4"></span>
                     <div>
-                      <h4 class="m-0 h5 text-white">Always Fresh Foods</h4>
-                      <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p>
+                      <h4 class="m-0 h5 text-white">Expertise in Smart Agriculture</h4>
+                      {{-- <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p> --}}
                     </div>
                   </div>
                   <div class="col-lg-12 d-flex align-items-start mb-4">
                     <span class="icon-lemon-o mr-4 display-4"></span>
                     <div>
-                      <h4 class="m-0 h5 text-white">Organic Foods</h4>
-                      <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p>
+                      <h4 class="m-0 h5 text-white">Accurate Data, Tangible Results</h4>
+                      {{-- <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p> --}}
                     </div>
                   </div>
                   <div class="col-lg-12 d-flex align-items-start">
                     <span class="icon-dashboard mr-4 display-4"></span>
                     <div>
-                      <h4 class="m-0 h5 text-white">Healtier Soil</h4>
-                      <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p>
+                      <h4 class="m-0 h5 text-white">Personalized Recommendations</h4>
+                      {{-- <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p> --}}
                     </div>
                   </div>
-
-
-
+                  <div class="col-lg-12 d-flex align-items-start mt-4">
+                    <span class="icon-dashboard mr-4 display-4"></span>
+                    <div>
+                      <h4 class="m-0 h5 text-white">Continuous Training</h4>
+                      {{-- <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p> --}}
+                    </div>
+                  </div>
+                   <div class="col-lg-12 d-flex align-items-start mt-4">
+                    <span class="icon-dashboard mr-4 display-4"></span>
+                    <div>
+                      <h4 class="m-0 h5 text-white">Connecting with Buyers</h4>
+                      {{-- <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p> --}}
+                    </div>
+                  </div>
                 </div>
-
-
               </div>
             </div>
           </div>
@@ -152,11 +163,9 @@
             </div>
             <div class="col-lg-5 order-lg-1">
               <h2 class="text-primary mb-4">Plants Make Life Better</h2>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus placeat, atque qui voluptatem velit explicabo vitae repellendus architecto provident nisi ullam minus asperiores commodi! Tenetur, repellat aliquam nihil illo.</p>
-              <ul class="list-unstyled ul-check primary">
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Velit explicabo vitae repellendu</li>
-                <li>Repellat aliquam nihil illo</li>
+              <p class="mb-4">“Unlock Your Green Potential: Whether you’re a seasoned farmer or a curious beginner, agriculture offers a world of opportunity. From nurturing crops to sustainable practices, embark on a journey that not only feeds the world but also nourishes your passion for growth. </p>
+              <ul class="list-unstyled">
+                <li>It all starts here and only here!</li>
               </ul>
               <p><a href="contact.html" class="btn btn-primary">Get in touch</a></p>
             </div>
@@ -167,11 +176,11 @@
       <div class="site-section block-3">
         <div class="container">
 
-          <div class="mb-5">
+          <div class="mb-vb5">
             <h3 class="section-subtitle text-white opacity-50">What we do</h3>
             <h2 class="section-title mb-4">Explore Our <strong>Farm</strong></h2>
           </div>
-
+{{-- 
           <div class="projects-carousel-wrap">
             <div class="owl-carousel owl-slide-3">
               <div class="project-item">
@@ -254,7 +263,7 @@
               </div>
 
 
-            </div>
+            </div> --}}
           </div>
 
         </div>
@@ -273,7 +282,7 @@
             <h4 class="my-0 fw-normal">Free</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">0 XAF<small class="text-body-secondary fw-light">/years</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Free dashboard</li>
               <li>Max projets 2  </li>
@@ -291,7 +300,7 @@
             <h4 class="my-0 fw-normal">Pro</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">10.000 XAF<small class="text-body-secondary fw-light">/years</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Free dashboard</li>
               <li>Unlimited projets   </li>
@@ -309,7 +318,7 @@
             <h4 class="my-0 fw-normal">Enterprise</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$50<small class="text-body-secondary fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">50.000<small class="text-body-secondary fw-light">/years</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Professional dashboard</li>
               <li>Unlimited projets </li>
@@ -333,8 +342,8 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6">
-              <h3 class="text-white">Subscribe To Newsletter</h3>
-              <p class="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reprehenderit!</p>
+              <h3 class="text-white">Stay Informed with Our Newsletter</h3>
+              <p class="opacity-50">Are you passionate about smart agriculture, data-driven insights, and sustainable farming practices? Don’t miss out on the latest updates, expert tips, and exclusive content. Join our community by subscribing to our newsletter today!</p>
             </div>
             <div class="col-lg-6">
               <form action="#" class="form-subscribe d-flex align-items-stretch">

@@ -99,6 +99,9 @@
                   <li class="nav-item">
                     <a href="{{ route('dashboard') }}" class="nav-link {{ Route::is('home') ? 'active' : '' }}"><i class="fe fe-activity"></i> Project Monitoring</a>
                   </li>
+                   <li class="nav-item">
+                    <a href="{{ route('services') }}" class="nav-link {{ Route::is('services') ? 'active' : '' }}"><i class="fe fe-grid"></i> Services</a>
+                  </li>
                 </ul>
               </div>
             </div>

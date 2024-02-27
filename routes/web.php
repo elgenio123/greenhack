@@ -37,16 +37,29 @@ Route::get('/dashboard', function(){
 
 })->name('dashboard');
 
-Route::get('/project',function(){
+Route::get('dashboard/project',function(){
 
 return view('layouts.admin.project');
 
 })->name('project');
-Route::get('/project/create-new-project',function(){
+
+Route::get('dashboard/project/create-new-project',function(){
 
 return view('layouts.admin.layouts.create-project');
 
 })->name('create.project');
+
+Route::get('dashboard/services',function(){
+
+return view('layouts.admin.services');
+
+})->name('services');
+
+Route::get('dashboard/services/recommandation',function(){
+
+return view('layouts.admin.layouts.recommandation');
+
+})->name('recommandation');
 
 require __DIR__.'/auth.php';
 Route::prefix('guest')->group(function () {
